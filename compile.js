@@ -20,8 +20,8 @@ const input = {
     },
   },
 };
-//module.exports = JSON.parse(solc.compile(source)).contracts[':Lottery'];
-module.exports = JSON.parse(solc.compile(JSON.stringify(input))).contracts[
- 'Lottery.sol'
-].Lottery;
+module.exports = JSON.parse(solc.compile(source)).contracts[':Lottery'];
+// module.exports = JSON.parse(solc.compile(JSON.stringify(input))).contracts[
+//  'Lottery.sol'
+// ].Lottery;
 //console.log(module.exports);
